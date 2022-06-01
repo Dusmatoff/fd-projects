@@ -1,0 +1,2 @@
+export const SET_REPORTS = 'SET_REPORTS';
+export const SET_DAILY_REPORTS = 'SET_DAILY_REPORTS';

@@ -1,0 +1,4 @@
+export const SET_BOOKING: string = 'SET_BOOKING';
+export const COPY_BOOKING: string = 'COPY_BOOKING';
+export const SHOW_CONTINUE_OVERLAPPING: string = 'SHOW_CONTINUE_OVERLAPPING';
+export const HIDE_CONTINUE_OVERLAPPING: string = 'HIDE_CONTINUE_OVERLAPPING';

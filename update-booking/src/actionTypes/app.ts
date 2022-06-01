@@ -1,0 +1,12 @@
+export const SET_BOOKING_ID: string = 'SET_BOOKING_ID';
+export const SHOW_LOADER: string = 'SHOW_LOADER';
+export const HIDE_LOADER: string = 'HIDE_LOADER';
+export const SHOW_ERROR: string = 'SHOW_ERROR';
+export const HIDE_ERROR: string = 'HIDE_ERROR';
+export const SHOW_ALERT: string = 'SHOW_ALERT';
+export const HIDE_ALERT: string = 'HIDE_ALERT';
+export const SHOW_CREATE_CLIENT_MODAL: string = 'SHOW_CREATE_CLIENT_MODAL';
+export const HIDE_CREATE_CLIENT_MODAL: string = 'HIDE_CREATE_CLIENT_MODAL';
+export const SET_PREPARE_CLIENT_HOURS: string = 'SET_PREPARE_CLIENT_HOURS';
+export const SET_CART: string = 'SET_CART';
+export const SET_USER: string = 'SET_USER';

@@ -1,0 +1,14 @@
+export const isLoader = (state): boolean => state.app.loadersCount > 0;
+export const isError = (state): boolean => state.app.error;
+export const getErrorMessage = (state): string => state.app.errorMessage;
+export const isAlert = (state): boolean => state.app.alert;
+export const getSuccessMessage = (state): string => state.app.successMessage;
+export const getManagerAnalytics = (state): any => state.managerAnalytics;
+export const isManagerAnalyticsFetched = (state): boolean => Object.keys(state.managerAnalytics).length > 0;
+export const isUserFetched = (state): boolean => Object.keys(state.user).length !== 0;
+export const getUser = (state): any => state.user;
+export const isUserLocManager = (state): boolean => state.user?.capabilities?.loc_manager || false;
+export const isUserAdmin = (state): boolean => state.user?.capabilities?.administrator || false;
+export const getLocations = (state) => state.user?.location;
+export const getCurrentLocation = (state): number => state.app.currentLocation;
+export const getEmployeesHours = (state) => state.employeesHours;

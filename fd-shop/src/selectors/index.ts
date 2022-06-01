@@ -1,0 +1,12 @@
+export const isLoader = (state): boolean => state.app.loadersCount > 0;
+export const isError = (state): boolean => state.app.error;
+export const getErrorMessage = (state): string => state.app.errorMessage;
+export const isAlert = (state): boolean => state.app.alert;
+export const getSuccessMessage = (state): boolean => state.app.successMessage;
+export const isProductsFetched = (state) => state.products.length !== 0;
+export const getProducts = (state) => state.products;
+export const isCategoriesFetched = (state) => Object.keys(state.categories).length !== 0;
+export const getCategories = (state) => state.categories;
+export const getEditProduct = (state) => state.app.editProduct;
+export const getHalls = (state) => state.halls;
+export const isHallsFetched = (state) => Object.keys(state.halls).length !== 0;

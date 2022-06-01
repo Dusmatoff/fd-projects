@@ -1,0 +1,314 @@
+/* Disable wordpress css */
+input[type=checkbox], input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=radio], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+    border: none !important;
+}
+
+textarea, textarea:hover {
+    box-shadow: none !important;
+}
+
+.statusNoAnswer {
+    background: #FE413E;
+}
+
+.status-noanswer select {
+    background-color: #FD3D3F !important;
+}
+
+.statusCancelled {
+    background: #E3ADAD;
+}
+
+.status-cancelled select {
+    background-color: #E2ACAC !important;
+}
+
+.statusDone {
+    background: #ccc;
+}
+
+.status-done select {
+    background-color: #E0E0E0 !important;
+}
+
+.statusApproved {
+    background: #B0E57C;
+}
+
+.status-approved select {
+    background-color: #AFE37E !important;
+}
+
+.statusCheckedIn {
+    background: #74e9fd;
+}
+
+.status-checked select {
+    background-color: #74E9FD !important;
+}
+
+.paypal::after {
+    content: '';
+    height: 15px;
+    display: block;
+    width: 100%;
+    background: url(/wp-content/plugins/appointment-calendar/menu-pages/assets/images/paypal.png) no-repeat left;
+}
+
+.authorize::after {
+    content: '';
+    height: 15px;
+    display: block;
+    width: 100%;
+    background: url(/wp-content/plugins/appointment-calendar/menu-pages/assets/images/autorize.png) no-repeat left;
+}
+
+.giggster::after {
+    content: '';
+    height: 15px;
+    display: block;
+    width: 100%;
+    background: url(/wp-content/plugins/appointment-calendar/menu-pages/assets/images/giggster.png) no-repeat center;
+    background-size: contain;
+}
+
+.manual::after {
+    content: 'manual';
+    display: block;
+}
+
+.fa-plus {
+    color: green;
+}
+
+.fa-minus {
+    color: red;
+}
+
+.MuiInputAdornment-positionEnd {
+    margin-left: 0;
+}
+
+.MuiInputAdornment-positionEnd > .MuiIconButton-root {
+    padding: 0
+}
+
+input[type=email], input[type=text], input[type=number] {
+    background-color: transparent;
+}
+
+.whiteCheckbox .fd-booking-MuiIconButton-label {
+    background: #fff;
+    height: 15px !important;
+    width: 15px !important;
+}
+.fd-booking-MuiCardContent-root:last-child {
+    padding-bottom: 6px;
+}
+@media (max-width: 1280px) {
+    .whiteCheckbox span.fd-booking-MuiTypography-body1 {
+        font-size: .9rem;
+    }
+
+    .noteRadio .fd-booking-MuiTypography-body1 {
+        font-size: .85rem;
+    }
+
+    .fd-booking-MuiButton-root {
+        padding: 6px 10px;
+    }
+
+    .noteText {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    /*.agreement-icon {*/
+    /*    right: 10px;*/
+    /*}*/
+
+    .agreement-btn {
+        padding: 3px;
+    }
+
+    .fd-booking-MuiFormControlLabel-root {
+        margin-left: 0px;
+        margin-right: 8px;
+    }
+}
+
+/*.agreement-text{*/
+/*    font-size: .9rem;*/
+/*}*/
+
+@media (min-width: 1680px) and (max-width: 1840px) {
+    .serviceCheckbox span.fd-booking-MuiTypography-body1 {
+        font-size: .88rem;
+    }
+}
+
+/*@media (min-width: 1680px) {*/
+/*    .agreement-btn {*/
+/*        margin-top: 10px;*/
+/*    }*/
+/*}*/
+
+input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=radio]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, select:focus, textarea:focus {
+    box-shadow: none !important;
+}
+
+.fd-booking-MuiRating-root {
+    color: #FAD806;
+}
+
+.fd-booking-MuiTab-textColorPrimary {
+    color: #494949;
+}
+
+.fd-booking-MuiInputLabel-outlined.fd-booking-MuiInputLabel-shrink {
+    background-color: #F0F0F1;
+}
+@media screen and (max-width: 1220px){
+    .wp-admin .form-table select, .wp-core-ui select {
+        min-height: 25px;
+    }
+}
+@media screen and (max-width: 1220px){
+    .fd-booking-makeStyles-dateInput-469 input {
+        min-height: 25px;
+    }
+}
+@media screen and (max-width: 1220px) {
+    .fd-booking-MuiTableCell-sizeSmall {
+        padding: 4px;
+    }
+}
+@media screen and (max-width: 1220px) {
+    #wpcontent #wpbody #wpbody-content > #root {
+        margin-left: 5px;
+    }
+}
+.fd-booking-MuiTab-textColorPrimary.Mui-selected {
+    background-color: #e6f3ff;
+}
+@media screen and (max-width: 1220px) {
+    #simple-tabpanel-0 > p > div > div.fd-booking-MuiGrid-root.fd-booking-makeStyles-border2-465.fd-booking-makeStyles-pd15-445.fd-booking-makeStyles-mt5-436.fd-booking-MuiGrid-item.fd-booking-MuiGrid-grid-xs-12.fd-booking-MuiGrid-grid-lg-8 > form > header > div > div.fd-booking-MuiTabs-scroller.fd-booking-MuiTabs-scrollable > span {
+        display: none;
+    }
+}
+@media screen and (max-width: 1220px) {
+    #root > div.fd-booking-MuiGrid-root.fd-booking-MuiGrid-container > div.fd-booking-MuiGrid-root.fd-booking-MuiGrid-item.fd-booking-MuiGrid-grid-xs-12.fd-booking-MuiGrid-grid-lg-8 > header > div > div > span {
+        display: none;
+    }
+}
+@media screen and (max-width: 1220px) {
+    #simple-tabpanel-1 > p > div > div:nth-child(2) > header > div > div > span {
+        display: none;
+    }
+}
+@media screen and (max-width: 1220px) {
+    #simple-tabpanel-1 > p > div > div:nth-child(1) > form > div > div:nth-child(1) > div > div {
+        height: 31px;
+    }
+}
+@media screen and (max-width: 544px) {
+    .fd-booking-MuiTableCell-root {
+        padding: 1px;
+    }
+}
+#status{
+    margin-right: 0!important;
+}
+.Picker .Icon {
+    position: absolute;
+    right: 2px;
+}
+#startTime_input, #endTime_input{
+    position: relative;
+    text-align: center;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #c4c4c4!important;
+    height: 38px;
+}
+#startTime_selector, #endTime_selector{
+    padding: 0.7em 1em 1em;
+    border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+    #startTime_input, #endTime_input {
+        height: 48px;
+    }
+}
+@media screen and (max-width: 1219px) {
+    #startTime_input, #endTime_input {
+        max-width: 200px;
+    }
+}
+#startTime::before{
+    content: "Start";
+    position: absolute;
+    top: -16px;
+}
+#endTime::before{
+    content: "End";
+    position: absolute;
+    top: -16px;
+}
+#startTime_icon, #endTime_icon, .pb-2{
+    display: none;
+}
+.TimeSelector .Number {
+    font-size: 27px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AmPmSelector.btn-group-vertical{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+.TimeSelector .Selector .Incrementor button{
+    border-radius: 4px;
+    margin-top: 4px;
+}
+.TimeSelector .Selector .Incrementor{
+    border-left: none;
+}
+ button.btn.btn-sm.btn-outline-secondary.p-0.px-1, button.btn.btn-sm.btn-secondary.p-0.px-1{
+     margin: 4px 0;
+}
+#startTime .btn-secondary, #endTime .btn-secondary,
+#startTime .btn-secondary:hover, #endTime .btn-secondary:hover{
+    background-color: #4aa0d7;
+}
+.fd-booking-MuiTableCell-sizeSmall{
+    text-align: center;
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1550px){
+    .fd-booking-MuiTableCell-paddingNone{
+        font-size: 0.8rem;
+    }
+}
+.fd-booking-MuiAccordionSummary-content.Mui-expanded {
+    margin: 10px 0;
+}
+.fd-booking-MuiAccordionSummary-root.Mui-expanded {
+    min-height: 44px;
+}
+.fd-booking-MuiTableCell-paddingNone{
+    text-align: center;
+}
+
+.positionAbsolute {
+    position: absolute!important;
+}

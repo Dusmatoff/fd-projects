@@ -1,0 +1,1 @@
+export const SET_INVENTORY = 'SET_INVENTORY';
